@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "MesloLGS NF + Emojis:pixelsize=14:antialias=true:autohint=true";
+static char *font = "MesloLGS NF:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
