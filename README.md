@@ -4,10 +4,16 @@
 
 - [bbaovanc's st fork](#bbaovancs-st-fork)
   - [Table of Contents](#table-of-contents)
+  - [Dependencies](#dependencies)
   - [Changes](#changes)
     - [Patches](#patches)
     - [Features and Tweaks](#features-and-tweaks)
   - [Installation](#installation)
+
+## Dependencies
+
+- [st-edit-screen](https://git.bbaovanc.com/bbaovanc/dotfiles/src/branch/master/.local/bin/st-edit-screen) script from my dotfiles
+- A system-wide `monospace` font configured (preferably with nerd-font)
 
 ## Changes
 
