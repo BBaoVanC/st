@@ -1,8 +1,8 @@
-# bbaovanc's st fork
+# bbaovanc's st fork (`scroll` branch)
 
 ## Table of Contents
 
-- [bbaovanc's st fork](#bbaovancs-st-fork)
+- [bbaovanc's st fork (`scroll` branch)](#bbaovancs-st-fork-scroll-branch)
   - [Table of Contents](#table-of-contents)
   - [Dependencies](#dependencies)
   - [Changes](#changes)
@@ -14,6 +14,7 @@
 
 ## Dependencies
 
+- [scroll](https://github.com/BBaoVanC/scroll)
 - [st-edit-screen](https://git.bbaovanc.com/bbaovanc/dotfiles/src/branch/master/.local/bin/st-edit-screen) script from my dotfiles
 - A system-wide `monospace` font configured (preferably with nerd-font)
 
@@ -22,19 +23,17 @@
 ### Patches
 
 - [alpha](https://st.suckless.org/patches/alpha)
-- [scrollback](https://st.suckless.org/patches/scrollback)
-- [scrollback-mouse](https://st.suckless.org/patches/scrollback)
 - [newterm](https://st.suckless.org/patches/newterm)
 - [ligatures](https://st.suckless.org/patches/ligatures)
 - [externalpipe](https://st.suckless.org/patches/externalpipe)
-- [externalpipe-eternal](https://st.suckless.org/patches/externalpipe)
 
 ### Features and Tweaks
 
+- Use `scroll` in st, instead of the scrollback patch. As mentioned on the `scroll` README, it's experimental and not recommended for productive use.
 - [Nord theme](https://nordtheme.com)
 - Use system monospace font
 - `Shift+Insert` pastes from clipboard, not selection board
-- `Ctrl+Shift+E`: send total contents of scrollback to $EDITOR
+- `Ctrl+Shift+E`: send contents of terminal screen to $EDITOR
 
 ## Installation
 
