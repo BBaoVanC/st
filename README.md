@@ -9,6 +9,8 @@
     - [Patches](#patches)
     - [Features and Tweaks](#features-and-tweaks)
   - [Installation](#installation)
+    - [Using `make`](#using-make)
+    - [Using AUR](#using-aur)
 
 ## Dependencies
 
@@ -36,7 +38,15 @@
 
 ## Installation
 
+### Using `make`
+
 1. Run `make`
 2. Run `sudo make install`
 
 By default, `st` will be installed to `/usr/local/bin` and manpages to `/usr/local/share/man/man1`
+
+### Using AUR
+
+1. Install the AUR package [st-bbaovanc-git](https://aur.archlinux.org/packages/st-bbaovanc-git)
+
+By default, `st` will be installed to `/usr/bin` and manpages to `/usr/share/man/man1/`
