@@ -14,6 +14,7 @@
 
 ## Dependencies
 
+- **[libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra-git): Important!** - `st` will crash if you try and view emoji without this installed.
 - [st-edit-screen](https://git.bbaovanc.com/bbaovanc/dotfiles/src/branch/master/.local/bin/st-edit-screen) script from my dotfiles
 - A system-wide `monospace` font configured (preferably with nerd-font)
 
